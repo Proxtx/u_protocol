@@ -6,16 +6,7 @@ describes the protocol unify uses to communicate with other unify services
 # protocol
 
 <br>
-basically property value. except nested properties exist however they can be handled differently in different implementations of the protocol<br>
-<br>
-syntax: attribute name + " " + value in quotes<br>
-example: test "hello test 1234"<br>
-can be chained<br>
-example: test "hello test 1234" another_test "another test 1234"<br>
-nested is indicated via a dot<br>
-example: test.first "hello test 1234" test.second "another test 1234"<br>
-<br>
-this protocol is simple to make implementing it in different programming languages easy.<br>
+the syntax is defined by json<br>
 <br>
 
 # job system
@@ -36,6 +27,7 @@ attribute <br>
 the core should be accessible through the "core" value. the core services is responsible for things like "list services" etc but this will be explained in the core service section.
 
 # bluetooth low energy protocol subset
+_this section will be removed and put into its own repository_
 
 <br>
 
